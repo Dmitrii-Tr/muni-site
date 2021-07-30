@@ -270,24 +270,12 @@ a {
 	font-weight: 400;
 	font-size: 18px;
 }
-.styles__inner,
-.positions__inner,
-.softness__nav,
-.luxury__nav,
-.violet__nav,
-.wed__nav,
-.mono__nav,
-.dusty__nav {
+
+.wed__nav {
 	padding-bottom: 97px;
 }
-.styles__inner-content,
-.positions__inner-content,
-.softness__inner-content,
-.luxury__inner-content,
-.violet__inner-content,
-.wed__inner-content,
-.mono__inner-content,
-.dusty__inner-content {
+
+.wed__inner-content {
 	display: flex;
 	align-items: flex-end;
 }
@@ -726,31 +714,17 @@ a {
 	margin: 29px 0 35px 0;
 }
 
-.softness__service-title,
-.luxury__service-title,
-.violet__service-title,
-.wed__service-title,
-.mono__service-title,
-.dusty__service-title {
+.wed__service-title {
 	padding: 38px 212px 26px 95px;
 }
-.softness__service-subtitle,
-.luxury__service-subtitle,
-.violet__service-subtitle,
-.wed__service-subtitle,
-.mono__service-subtitle,
-.dusty__service-subtitle {
+
+.wed__service-subtitle {
 	font-weight: 400;
 	font-size: 18px;
 	padding: 0 102px 27px 93px;
 }
 
-.softness__service-description,
-.luxury__service-description,
-.violet__service-description,
-.wed__service-description,
-.mono__service-description,
-.dusty__service-description {
+.wed__service-description {
 	padding: 0 0 20px 109px;
 }
 
@@ -866,4 +840,7 @@ a {
 }
 .wed__base-content-items {
 	padding-bottom: 13px;
+}
+.dusty__service-description{
+	padding-bottom: 53px;
 }
