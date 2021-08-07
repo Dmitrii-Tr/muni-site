@@ -1,9 +1,14 @@
+
 body {
 	font-family: "Montserrat", sans-serif;
 }
 a {
 	text-decoration: none;
 	color: #494948;
+}
+a:hover, button:hover{
+	opacity: 0.75; 
+	transition: 0.6s;
 }
 .wrapper {
 	min-height: 100%;
@@ -265,25 +270,23 @@ a {
 	font-weight: 400;
 	font-size: 18px;
 }
-
-/* .wed__nav {
-	padding-bottom: 97px;
-} */
-
+.modern__inner-content,
 .wed__inner-content {
 	display: flex;
 	align-items: flex-end;
 }
 .styles__inner-line,
 .positions__inner-line,
-.wed__inner-line {
+.wed__inner-line,
+.modern__inner-line {
 	position: absolute;
 	left: 0;
 	padding-bottom: 10px;
 }
 .styles__inner-title,
 .positions__inner-title,
-.wed__inner-title {
+.wed__inner-title,
+.modern__inner-title {
 	font-family: "Cormorant", serif;
 	font-size: 70px;
 	font-weight: 700;
@@ -319,12 +322,14 @@ a {
 .positions__items-content {
 	margin-bottom: 97px;
 }
-.styles__items-ref {
+.styles__items-title {
 	font-size: 30px;
 	font-weight: 400;
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 100px;
+}
+.styles__items-element{
+margin-bottom: 95px;
 }
 .positions__items-style-link {
 	padding: 16px 249px 17px 249px;
@@ -437,7 +442,8 @@ a {
 .positions__items-number.number {
 	margin-left: 155px;
 }
-.softness__inner-title {
+.softness__inner-title,
+.modern__inner-title {
 	margin-left: 460px;
 }
 .luxury__inner-title {
@@ -449,10 +455,16 @@ a {
 .wed__inner-content {
 	margin-bottom: 100px;
 }
+.modern__inner-content {
+	margin-bottom: 45px;
+}
 .wed__base-content {
 	margin-top: 90px;
 }
-
+.modern__base-content,
+.modern__service-content {
+	margin-top: 195px;
+}
 .wed__service-inner {
 	display: flex;
 	margin-bottom: 91px;
@@ -461,9 +473,24 @@ a {
 	display: flex;
 	margin-bottom: 70px;
 }
+.modern__service-inner {
+	display: flex;
+	margin-bottom: 328px;
+}
+.modern__base-inner {
+	display: flex;
+	margin-bottom: 360px;
+}
 .wed__base-image,
 .wed__service-image {
 	width: 848px;
+	height: auto;
+	position: absolute;
+	right: 0;
+}
+.modern__base-image,
+.modern__service-image {
+	width: 767px;
 	height: auto;
 	position: absolute;
 	right: 0;
@@ -488,7 +515,6 @@ a {
 .softness__base-description{
 	padding-bottom: 90px;
 }
-
 .luxury__base-description,
 .mono__base-description,
 .violet__base-description, 
@@ -496,7 +522,6 @@ a {
 {
 	padding: 0 59px 75px 78px;
 }
-
 .wed__base-item,
 .wed__service-item {
 	list-style-type: circle;
@@ -506,6 +531,13 @@ a {
 .wed__service-inner-content {
 	margin-top: 57px;
 }
+.modern__base-inner-content{
+	margin-top: 132px;
+}
+.modern__service-inner-content{
+	margin-top: 69px;
+}
+
 .wed__base-inner-subtext,
 .wed__service-inner-subtext {
 	font-size: 10px;
@@ -623,3 +655,12 @@ a {
 .dusty__service-description {
 	padding-bottom: 53px;
 }
+.modern__base-content-items,
+.modern__service-content-items
+{
+	background-color: #ffe4e4;
+	box-sizing: border-box;
+	width: 595px;
+	
+}
+
