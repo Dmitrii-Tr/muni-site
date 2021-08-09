@@ -288,7 +288,7 @@ button:hover {
 .positions__inner-title,
 .wed__inner-title,
 .modern__inner-title,
-.air__inner-title{
+.air__inner-title {
 	font-family: "Cormorant", serif;
 	font-size: 70px;
 	font-weight: 700;
@@ -531,8 +531,7 @@ button:hover {
 .mono__base-description,
 .violet__base-description,
 .softness__service-description,
-.laconic__base-description
- {
+.laconic__base-description {
 	padding: 0 59px 75px 78px;
 }
 .wed__base-item,
@@ -681,12 +680,71 @@ button:hover {
 	box-sizing: border-box;
 	width: 595px;
 }
-
-.air__inner-line{
+.air__inner-line {
 	padding-bottom: 10px;
 	width: 290px;
-	overflow: hidden; 
+	overflow: hidden;
 }
-.air__inner-title{
+.air__inner-title {
 	margin-left: 102px;
+}
+.polygraphy__service-inner {
+	margin-bottom: 300px;
+	display: flex;
+}
+.polygraphy__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.polygraphy__content-item:last-child {
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.polygraphy__content-item {
+	margin: 0 20px 20px 0;
+}
+.polygraphy__service-content {
+	background-color: #ffe4e4;
+	width: 536px;
+	padding-bottom: 43px;
+	margin-top: 142px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.polygraphy__design-price {
+	margin-left: 7px;
+}
+.polygraphy__design-title {
+	margin: 67px auto 35px 101px;
+}
+.polygraphy__design-item {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.polygraphy__design-element {
+	margin-left: 79px;
+}
+.polygraphy__image {
+	position: absolute;
+	right: 0;
+	width: 825px;
+}
+.polygraphy__contact-text,
+.polygraphy__contact-link 
+{
+	font-size: 30px;
+	font-weight: 500;
+	color: #464343;
+	line-height: 40px;
+}
+.polygraphy__contact-link {
+	font-weight: 700;	
+}
+.polygraphy__contacts-inner{
+	background-color: #FFE4E4;
+	box-sizing: border-box;
+	padding: 74px 313px 71px auto;
 }
