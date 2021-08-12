@@ -702,7 +702,7 @@ button:hover {
 	margin-bottom: 100px;
 }
 .polygraphy__content-item {
-	margin: 0 20px 20px 0;
+	margin: 0 13px 20px 13px;
 }
 .polygraphy__service-content {
 	background-color: #ffe4e4;
@@ -733,18 +733,120 @@ button:hover {
 	width: 825px;
 }
 .polygraphy__contact-text,
-.polygraphy__contact-link 
-{
+.polygraphy__contact-link {
 	font-size: 30px;
 	font-weight: 500;
 	color: #464343;
 	line-height: 40px;
 }
 .polygraphy__contact-link {
-	font-weight: 700;	
+	font-weight: 700;
 }
-.polygraphy__contacts-inner{
-	background-color: #FFE4E4;
+.polygraphy__contacts-inner {
+	background-color: #ffe4e4;
 	box-sizing: border-box;
-	padding: 74px 313px 71px auto;
+	padding: 74px 313px 71px 360px;
+}
+.order__content-image {
+	margin-right: 20px;
+}
+.order__content-inner,
+.confirm__content-inner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+.order__content-item {
+	display: flex;
+	width: 496px;
+}
+.order__content-title,
+.order__content-subtext,
+.order__content-btn,
+.order__content-price-btn {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #464343;
+}
+.order__content-title {
+	margin-bottom: 20px;
+}
+.order__content-subtext {
+	margin-left: 44px;
+}
+.order__input {
+	width: 63px;
+	height: 25px;
+	margin: 20px 0 20px 68px;
+}
+.wed__items-price.order {
+	display: block;
+	margin: 0 0 27px 75px;
+}
+.order__content-btn {
+	font-family: "Montserrat", sans-serif;
+	height: 36px;
+	width: 178px;
+	background-color: transparent;
+	border: solid 1px #464343;
+}
+.order__content-price {
+	padding-top: 34px;
+}
+.order__content-price-title {
+	font-size: 30px;
+	font-weight: 500;
+	font-family: "Roboto", sans-serif;
+	color: #464343;
+	display: inline-block;
+	margin: 0 62px 40px 53px;
+}
+
+.order__content-price-btn {
+	font-family: "Montserrat", sans-serif;
+	background-color: #5ab6bb;
+	height: 51px;
+	width: 278px;
+	border-style: none;
+	color: white;
+	display: block;
+	margin-left: 53px;
+}
+.order__content-price {
+	box-sizing: border-box;
+	width: 471px;
+	height: 261px;
+	border: solid #ffe4e4;
+	border-width: 39px 43px;
+}
+.order__content-link{
+	padding: 14px;
+	border: solid 1px #464343;
+}
+.order__content-esc{
+	margin-bottom: 97px;
+}
+.confirm__input{
+	display: block;
+}
+.confirm__content-title{
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #464343;
+}
+.confirm__content-price {
+		box-sizing: border-box;
+		width: 575px;
+		height: auto;
+		border: solid #ffe4e4;
+		border-width: 58px 50px;
+	}
+.confirm__content-title{
+	margin-bottom: 50px;
+}
+.confirm__input{
+	width: 476px;
+	height: 57px;
 }
