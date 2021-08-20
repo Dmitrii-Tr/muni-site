@@ -1,0 +1,131 @@
+/* @media screen and (max-width: 1220px) {
+	.container {
+		max-width: 1140px;
+	}
+	.menu__list {
+		margin-right: 95px;
+	}
+	.top__inner-title {
+		font-size: 100px;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.container {
+		width: 800px;
+	}
+	.menu__list {
+		margin-right: -10px;
+		font-size: 15px;
+	}
+	.menu__list-item {
+		padding-right: 35px;
+	}
+} */
+@media screen and (max-width: 1280px) {
+	.container {
+		width: 720px;
+	}
+	.menu__list {
+		margin-right: -10px;
+	}
+	.menu__list-item {
+		padding-right: 12px;
+	}
+	.header__inner-link {
+		font-size: 14px;
+		padding: 7px 12px 7px 12px;
+	}
+	.header__logo {
+		width: 58px;
+		height: 58px;
+	}
+	.header__inner-phone {
+		font-size: 14px;
+	}
+	.header__insta {
+		height: 14px;
+		width: 14px;
+	}
+	.header__inner-insta {
+		padding-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	.header__inner{
+		justify-content: center;
+	}
+	.header__inner-link,
+	.header__inner-phone,
+	.menu__list {
+		font-size: 12px;
+	}
+	.header__inner-link{
+		padding: 5px 9px 5px 8px;
+	}
+	.menu {
+		position: absolute;
+		left: 0;
+		right: 0;
+		background-color: #fff;
+		text-align: center;
+		transform: translateY(-300%);
+		transition: all .3s;
+		font-size: 16px;
+	}
+	.menu.menu--active{
+		transform: translateY(0%);
+		margin-top: -30px;
+		 width: 100vw; 
+		 height: 100vh; 
+		
+	}
+	.menu__btn {
+	display: block;	
+}
+	.menu__list{
+	display: block;
+}
+.header__logo {
+	width: 40px;
+	height: 40px;
+}
+.header__inner-logo{
+	margin: 0;
+}
+.header__inner-phone {
+	margin-right: 10px;
+}
+.header__inner-insta {
+	margin-right: 10px;
+}
+
+.menu__list-logo{
+margin-top: 36px;
+}
+.menu__list-item{
+	margin-bottom: 17px;
+}
+/* .menu__list.menu--logo{
+display: block;
+} */
+/* .menu__list-logo {
+	display: none;
+} */
+.menu__list-logo.menu--logo{
+	display: block;
+}
+.menu__list{
+	display: inline;
+}
+.menu__btn.btn--hiden{
+	display: none;
+}
+.menu__btn--close.menu__btn--active{
+	display: block;
+	position: absolute;
+}
+}

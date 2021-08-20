@@ -750,8 +750,7 @@ button:hover {
 .order__content-image {
 	margin-right: 20px;
 }
-.order__content-inner,
-.confirm__content-inner {
+.order__content-inner {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 60px;
@@ -820,33 +819,180 @@ button:hover {
 	border: solid #ffe4e4;
 	border-width: 39px 43px;
 }
-.order__content-link{
+.order__content-link {
 	padding: 14px;
 	border: solid 1px #464343;
 }
-.order__content-esc{
+.order__content-esc {
 	margin-bottom: 97px;
 }
-.confirm__input{
+.confirm__input {
 	display: block;
 }
-.confirm__content-title{
+.confirm__content-title,
+.confirm__content-order {
 	font-family: "Montserrat", sans-serif;
 	font-size: 30px;
 	font-weight: 500;
 	color: #464343;
 }
 .confirm__content-price {
-		box-sizing: border-box;
-		width: 575px;
-		height: auto;
-		border: solid #ffe4e4;
-		border-width: 58px 50px;
-	}
-.confirm__content-title{
+	/* width: 575px; */
+	/* height: auto; */
+	border: solid #ffe4e4;
+	border-width: 58px 50px;
+}
+.confirm__content-title {
 	margin-bottom: 50px;
 }
-.confirm__input{
-	width: 476px;
+.confirm__input-name,
+.confirm__input-phone,
+.confirm__input-adress,
+.confirm__input-date {
+	width: 470px;
 	height: 57px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
 }
+.confirm__input-date {
+	width: 213px;
+	height: 57px;
+	display: block;
+}
+.confirm__input-name,
+.confirm__input-adress {
+	margin-bottom: 31px;
+}
+.confirm__input-phone {
+	margin-bottom: 56px;
+}
+.confirm__content-order {
+	padding: 96px 0 37px 69px;
+}
+.confirm__content-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.confirm__content-order {
+	margin-right: 60px;
+}
+.confirm__content-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	padding-left: 36px;
+}
+.confirm__content-quantity,
+.confirm__content-subtotal {
+	padding-bottom: 20px;
+}
+.confirm__content-subtotal::after {
+	content: "";
+	background-image: url("../images/ruble-min.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	margin-left: 3px;
+	margin-top: 2px;
+}
+.confirm__content-price-title,
+.confirm__content-subtotal,
+.order__content-price-total,
+.confirm__content-price-total {
+	font-family: "Roboto", sans-serif;
+}
+.confirm__content-items {
+	margin-bottom: 32px;
+}
+
+.confirm__content-total {
+	display: flex;
+}
+
+.confirm__content-price-title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #464343;
+	padding-left: 72px;
+	padding-right: 72px;
+	white-space: nowrap;
+}
+
+.confirm__content-inner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.confirm__content-price-total {
+	padding-right: 141px;
+}
+
+.confirm__content-price-total {
+	margin-top: 0px;
+	margin-left: 2px;
+}
+.confirm__content-price-btn {
+	background-color: #5ab6bb;
+	height: 51px;
+	width: 477px;
+	color: #ececec;
+	border-style: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.confirm__content-esc {
+	margin-bottom: 100px;
+}
+.menu__btn {
+	position: relative;
+	width: 18px;
+	height: 12px;
+	display: none;
+	margin-left: 15px;
+}
+.menu__btn span,
+.menu__btn:before,
+.menu__btn:after {
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	background-color: #464343;
+	margin: 0 auto;
+}
+.menu__btn span {
+	top: 6px;
+}
+.menu__btn:after,
+.menu__btn:before {
+	content: "";
+}
+.menu__btn:after {
+	bottom: 13px;
+}
+.menu__btn:before {
+	top: 14px;
+}
+.menu__list-logo {
+	display: none;
+}
+.menu__btn--close {
+	display: none;
+	width: 16px;
+	height: 16px;
+	/* border: 1px solid #464343; */
+	border: 0;
+	outline: 0;
+
+
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	background-color: white;
+	background-image: url(../images/main/close-menu.svg);
