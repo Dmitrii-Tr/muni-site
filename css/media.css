@@ -49,11 +49,33 @@
 	.header__inner-insta {
 		padding-bottom: 0;
 }
+.top {
+	background: url(../images/main/bg768px.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.top__inner-title {
+	font-size: 75px;
+	font-weight: 700;
+	Line-height: 70px;
+	margin-bottom: 35px;
+	padding: 85px 0 0;
+}
+.top__inner-text, .top__inner-btn {
+	font-size: 20px;
+	font-weight: 400;
+}
+.top__inner-text {
+	margin-bottom: 75px;
+	line-height: 25px;
+}
+.top__inner-btn {
+	padding: 22px 80px;
+}
 
 @media screen and (max-width: 767px) {
 	.container {
-		width: 100%;
-		padding: 0;
+		max-width: 290px;
 	}
 	.header__inner{
 		justify-content: center;
@@ -109,12 +131,7 @@ margin-top: 36px;
 .menu__list-item{
 	margin-bottom: 17px;
 }
-/* .menu__list.menu--logo{
-display: block;
-} */
-/* .menu__list-logo {
-	display: none;
-} */
+
 .menu__list-logo.menu--logo{
 	display: block;
 }
@@ -128,4 +145,84 @@ display: block;
 	display: block;
 	position: absolute;
 }
+.top {
+	background: url(../images/main/bg320px.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
+
+	.top__inner-title {
+		font-size: 40px;
+		Line-height: 35px;
+		margin-bottom: 20px;
+		text-align: left;
+}
+  	.top__inner-text {
+	margin-bottom: 50px;
+	line-height: 15px;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.top__inner-btn {
+	white-space: nowrap;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 19px 90px;
+}
+}
+
+/* 
+/* mobile */
+/* .top {
+	background: url(../images/main/bg320px.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.container {
+	max-width: 290px;
+}
+	.top__inner-title {
+		font-size: 40px;
+		Line-height: 35px;
+		margin-bottom: 20px;
+		text-align: left;
+}
+  	.top__inner-text {
+	margin-bottom: 50px;
+	line-height: 15px;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.top__inner-btn {
+	white-space: nowrap;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 19px 90px;
+}
+
+
+  .top {
+	background: url(../images/main/bg768.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.top__inner-title {
+	font-size: 75px;
+	font-weight: 700;
+	Line-height: 70px;
+	margin-bottom: 35px;
+	padding: 85px 0 0;
+}
+.top__inner-text, .top__inner-btn {
+	font-size: 20px;
+	font-weight: 400;
+}
+.top__inner-text {
+	margin-bottom: 75px;
+	line-height: 25px;
+}
+.top__inner-btn {
+	padding: 22px 80px;
+}  */
