@@ -204,12 +204,9 @@ button:hover {
 	content: "";
 	background-image: url("../images/main/mail-logo.svg");
 	padding-left: 73px;
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 }
-/* .contact {
-	margin-bottom: 261px;
-} */
+
 .footer {
 	border-top: 1px solid #afafaf;
 }
@@ -290,20 +287,23 @@ button:hover {
 	display: flex;
 	justify-content: center;
 }
-.styles__items-link,
-.positions__items-link {
+.styles__link,
+.positions__link {
 	font-size: 30px;
 	font-weight: 400;
 }
-.styles__items-style-link {
+.styles__link.active {
 	padding: 16px 249px 17px 249px;
 	background-color: #fbcdcd;
 	border: 1px solid #6b6a6a;
 }
-.styles__items-position-link {
+
+.styles__link.inactive{
 	padding: 16px 214px 17px 249px;
 	background-color: #ececec;
 }
+
+
 .styles__items-catalog,
 .positions__items-catalog {
 	display: flex;
@@ -323,11 +323,11 @@ button:hover {
 .styles__items-element {
 	margin-bottom: 95px;
 }
-.positions__items-style-link {
+.positions__link.inactive {
 	padding: 16px 249px 17px 249px;
 	background-color: #ececec;
 }
-.positions__items-position-link {
+.positions__link.active {
 	padding: 16px 214px 17px 249px;
 	background-color: #fbcdcd;
 	border: 1px solid #6b6a6a;
