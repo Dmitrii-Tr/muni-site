@@ -388,6 +388,7 @@ button:hover {
 	height: 52px;
 	width: 376px;
 	border-style: none;
+	color: white;
 }
 .positions__items-element {
 	margin-bottom: 73px;
@@ -415,23 +416,28 @@ button:hover {
 	margin-left: 4px;
 	margin-top: 4px;
 }
-.positions__items-inner-title.title {
+.positions__items-inner-title.title,
+.positions__items-inner-title.text {
 	padding: 0;
 }
-.positions__items-price.price {
+.positions__items-price.price,
+.positions__items-price.value {
 	margin-top: -10px;
 	margin-left: 20px;
+
 }
 .positions__items-inner-content {
 	display: flex;
 	justify-content: center;
 	margin: 28px 0 0 -80px;
 }
-.positions__items-inner-subtext.subtext {
+.positions__items-inner-subtext.subtext,
+.positions__items-inner-subtext.person {
 	text-align: center;
 	margin: 25px 32px 6px 30px;
 }
-.positions__items-number.number {
+.positions__items-number.number,
+.positions__items-number.value {
 	margin-left: 155px;
 }
 .softness__inner-title,
@@ -976,7 +982,6 @@ button:hover {
 	display: none;
 	width: 16px;
 	height: 16px;
-	/* border: 1px solid #464343; */
 	border: 0;
 	outline: 0;
 

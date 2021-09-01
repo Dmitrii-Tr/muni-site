@@ -22,16 +22,20 @@
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__inner-logo">
-						<a class="logo" href="index.html"><img src="images/main/logo.svg" alt="logo"></a>
+						<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 					</div>
 					<div class="header__inner-menu">
 						<nav class="menu">
 							<ul class="menu__list">
+								<li class="menu__list-logo">
+									<a class="logo" href="index.html"><img class="menu__logo" src="images/main/mobile-logo.svg"
+											alt="logo"></a>
+								</li>
 								<li class="menu__list-item">
 									<a class="menu__list-link" href="styles.html">Каталог</a>
 								</li>
 								<li class="menu__list-item">
-									<a class="menu__list-link" href="#">Свадебная полиграфия</a>
+									<a class="menu__list-link" href="polygraphy.html">Свадебная полиграфия</a>
 								</li>
 							</ul>
 					</div>
@@ -39,610 +43,577 @@
 						<a class="header__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
 					</div>
 					<div class="header__inner-insta">
-						<a class="insta-link" href="https://www.instagram.com/munidecor/"><img
+						<a class="insta-link" href="https://www.instagram.com/munidecor/"><img class="header__insta"
 								src="images/main/insta-logo.png" alt="instagram"></a>
 					</div>
 					<div class="header__inner-btn">
-						<a class="header__inner-link" href="#">Мой заказ</a>
+						<a class="header__inner-link" href="order.html">Мой заказ</a>
 					</div>
+					<div class="menu__btn">
+						<span></span>
+					</div>
+					<button class="menu__btn--close"></button>
 				</div>
 			</div>
 		</header>
-
 		<section class="positions__top">
 			<div class="container">
 				<div class="positions__nav">
-					<a href="index.html" class="positions__nav-main">Главная</a>
+					<a class="positions__nav-main" href="index.html">Главная</a>
 					<span class="positions__nav-slash">/</span>
 					<span class="positions__nav-styles">Каталог</span>
 				</div>
-
-				<div class="positions__inner">
-					<div class="wed__inner-content">
-						<div class="positions__inner-line">
-							<img src="images/styles/catalog-line.svg" alt="line">
-						</div>
-						<div class="positions__inner-title">Каталог</div>
-					</div>
-				</div>
 			</div>
-	</div>
-	</section>
-
-	<section class="positions__items">
-		<div class="container">
-			<div class="positions__items-content">
-				<a class="positions__link inactive" href="styles.html">Стили</a>
-				<a class="positions__link active" href="#">Позиции</a>
-
+			<div class="styles">
+				<h2 class="about__title title">Каталог</h2>
 			</div>
-
-
-			<div class="positions__items-catalog">
-				<div class="positions__items-menu">
-					<p class="positions__items-title">Выберите позицию</p>
-					<select class="positions__items-list" size="1" id="">
-						<option class="positions__items-list">Все позиции</option>
-						<option class="positions__item">Базовые комплекты</option>
-						<option class="positions__item">Сервировочный набор</option>
-						<option class="positions__item">Бокалы</option>
-						<option class="positions__item">Тарелки</option>
-						<option class="positions__item">Тарелки сервировочные</option>
-						<option class="positions__item">Приборы</option>
-						<option class="positions__item">Салфетки</option>
-						<option class="positions__item">Толстые свечи</option>
-					</select>
+		</section>
+		<section class="positions__items">
+			<div class="container">
+				<div class="positions__items-content">
+					<a class="positions__link inactive" href="styles.html">Стили</a>
+					<a class="positions__link active" href="#">Позиции</a>
 				</div>
-				<div class="positions__items-elements">
-					<div class="positions__items-element">
-						<img src="images/positions/base tenderness in details.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>“Нежность в деталях”:
-						</h3>
-						<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и подсвечники 4
-							шт.,<br>
-							пудровая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">5800</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
+				<div class="positions__items-catalog">
+					<div class="positions__items-menu">
+						<p class="positions__items-title">Выберите позицию</p>
+						<select class="positions__items-list" size="1" id="">
+							<option class="positions__items-list">Все позиции</option>
+							<option class="positions__item">Базовые комплекты</option>
+							<option class="positions__item">Сервировочный набор</option>
+							<option class="positions__item">Бокалы</option>
+							<option class="positions__item">Тарелки</option>
+							<option class="positions__item">Тарелки сервировочные</option>
+							<option class="positions__item">Приборы</option>
+							<option class="positions__item">Салфетки</option>
+							<option class="positions__item">Толстые свечи</option>
+						</select>
 					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base luxury of colors.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>“Роскошь красок”:
-						</h3>
-						<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и подсвечники 4
-							шт.,<br>
-							бежевая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">5800</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base purple classic.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>“Лиловая классика”:</h3>
-						<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и подсвечники 4
-							шт.,<br>
-							серая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">5800</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base wedding party.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>
-							“Свадебная вечеринка”
-						</h3>
-						<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и<br>
-							подсвечники 4 шт., пудровая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">4300</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base dusty chrome.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>
-							“Припыленный монохром”:
-						</h3>
-						<h6 class="positions__items-inner-text">Цветочная композиция в вазоне, тонкие свечи и подсвечники 4
-							шт.,<br>
-							серая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">5800</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base mono of roses.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>
-							“Моно из роз”:
-						</h3>
-						<h6 class="positions__items-inner-text">Три цветочные композиции в прозрачных вазах, тонкие свечи
-							и<br>
-							подсвечники 4 шт., бежевая скатерть для круглого стола
+					<div class="positions__items-elements">
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base tenderness in details.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>“Нежность в деталях”:
+							</h3>
+							<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и подсвечники 4
+								шт.,&nbsp; пудровая скатерть для круглого стола</h6>
 							<h6 class="positions__items-inner-subtext">количество персон</h6>
 							<input class="positions__items-number" type="number" min="0" value="1">
-							<span class="positions__items-price">4250</span>
+							<span class="positions__items-price">5800</span>
 							<div class="positions__items-btn">
 								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base modern classic.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>“Современная классика”:
-						</h3>
-						<h6 class="positions__items-inner-text">Объемная композиция на высокой стойке, тонкие свечи и<br>
-							подсвечники 4 шт., серая скатерть для круглого стола
-						</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">7300</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
 						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base laconic accent .jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>“Лаконичный акцент”:
-						</h3>
-						<h6 class="positions__items-inner-text">Композиция из стеклянных колб с розами, тонкие свечи и<br>
-							подсвечники 8 шт., серая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">3900</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/base air trederness.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Базовый комплект<br>“Воздушная нежность”:</h3>
-						<h6 class="positions__items-inner-text">Композиция на зеркальной подложке в мини вазах, тонкие свечи
-							и<br>
-							подсвечники 4 шт., пудровая скатерть для круглого стола</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">4500</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer tenderness in details.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>
-							“Нежность в деталях”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">796</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer luxury of colors.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>
-							“Роскошь красок”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">865</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer purple classic.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>
-							“Лиловая классика”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">600</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-
-
-					<div class="positions__items-element">
-						<img src="images/positions/layer wedding party.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>“Свадебная вечеринка”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">625</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer dusty chrome.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>“Припыленный
-							монохром”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">390</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer mono of rose.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>“Моно из роз”:</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">815</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-
-
-					<div class="positions__items-element">
-						<img src="images/positions/layer modern classic.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>
-							“Современная классика”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">815</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer laconic accent.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>
-							“Лаконичный акцент”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">796</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer air trederness.jpg" alt="image">
-						<h3 class="positions__items-inner-title">Комплект сервировки на одну персону<br>
-							“Воздушная нежность”:
-						</h3>
-						<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы</h6>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number" type="number" min="0" value="1">
-						<span class="positions__items-price">755</span>
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-
-
-
-
-					<div class="positions__items-element">
-						<img src="images/positions/glass1.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h class="positions__items-inner-title title">Бокал</h>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">70</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base luxury of colors.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>“Роскошь красок”:
+							</h3>
+							<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и подсвечники 4
+								шт.,&nbsp; бежевая скатерть для круглого стола</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">5800</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-
-
-
-					<div class="positions__items-element">
-						<img src="images/positions/glass2.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Бокал</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">130</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base purple classic.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>“Лиловая классика”:</h3>
+							<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и подсвечники 4
+								шт.,&nbsp; серая скатерть для круглого стола</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">5800</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/plate1.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">150</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base wedding party.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>
+								“Свадебная вечеринка”
+							</h3>
+							<h6 class="positions__items-inner-text">Цветочная композиция в вазе, тонкие свечи и
+								подсвечники 4 шт., &nbsp; пудровая скатерть для круглого стола</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">4300</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/plate2.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">160</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base dusty chrome.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>
+								“Припыленный&nbsp;монохром”:
+							</h3>
+							<h6 class="positions__items-inner-text">Цветочная композиция в вазоне, тонкие свечи и подсвечники 4
+								шт.,&nbsp; серая скатерть для круглого стола</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">5800</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base mono of roses.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>
+								“Моно из роз”:
+							</h3>
+							<h6 class="positions__items-inner-text">Три цветочные композиции в&nbsp; прозрачных вазах, тонкие
+								свечи
+								и подсвечники 4 шт.,&nbsp; бежевая скатерть для&nbsp;круглого&nbsp;стола
+								<h6 class="positions__items-inner-subtext">количество персон</h6>
+								<input class="positions__items-number" type="number" min="0" value="1">
+								<span class="positions__items-price">4250</span>
+								<div class="positions__items-btn">
+									<button class="positions__items-btn-link">Выбрать</button>
+								</div>
 						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/plate3.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">110</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base modern classic.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>“Современная&nbsp;классика”:
+							</h3>
+							<h6 class="positions__items-inner-text">Объемная композиция на высокой стойке, тонкие свечи и
+								подсвечники 4 шт., серая скатерть для круглого стола
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">7300</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer plate.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка сервировочная</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">260</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base laconic accent .jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>“Лаконичный акцент”:
+							</h3>
+							<h6 class="positions__items-inner-text">Композиция из стеклянных колб с розами, тонкие свечи и
+								подсвечники 8 шт., серая скатерть для круглого стола</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">3900</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-
-
-					<div class="positions__items-element">
-						<img src="images/positions/layer plate2.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка сервировочная</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">260</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/base air trederness.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Базовый комплект<br>“Воздушная&nbsp;нежность”:</h3>
+							<h6 class="positions__items-inner-text">Композиция на зеркальной подложке в мини вазах, тонкие
+								свечи и подсвечники 4 шт., пудровая скатерть для круглого стола</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">4500</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer plate3.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка сервировочная</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">260</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer tenderness in details.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Нежность в деталях”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">796</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer plate4.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка сервировочная</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">130</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer luxury of colors.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Роскошь красок”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">865</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer plate5.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка сервировочная</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">130</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer purple classic.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Лиловая классика”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">600</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/layer plate6.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Тарелка сервировочная</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">210</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer wedding party.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>“Свадебная
+								вечеринка”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">625</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/cutlery.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Приборы</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">235</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer dusty chrome.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Припыленный&nbsp;монохром”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, приборы, салфетка
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">390</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-
-					<div class="positions__items-element">
-						<img src="images/positions/napkin1.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Cалфетка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">80</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer mono of rose.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>“Моно из роз”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">815</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/napkin2.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Салфетка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">80</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer modern classic.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Современная&nbsp;классика”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">815</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/napkin3.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Салфетка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">80</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer laconic accent.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Лаконичный акцент”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">796</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-					<div class="positions__items-element">
-						<img src="images/positions/napkin4.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Салфетка</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">80</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer air trederness.jpg" alt="image">
+							<h3 class="positions__items-inner-title">Комплект&nbsp;сервировки на одну персону<br>
+								“Воздушная&nbsp;нежность”:
+							</h3>
+							<h6 class="positions__items-inner-text">Бокал, тарелка, тарелка сервировочная, салфетка, приборы
+							</h6>
+							<h6 class="positions__items-inner-subtext">количество персон</h6>
+							<input class="positions__items-number" type="number" min="0" value="1">
+							<span class="positions__items-price">755</span>
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
-						</div>
-					</div>
-
-					<div class="positions__items-element">
-						<img src="images/positions/fat spark.jpg" alt="image">
-						<div class="positions__items-inner-content">
-							<h3 class="positions__items-inner-title title">Свечи</h3>
-							<div class="positions__items-price-content">
-								<span class="positions__items-price price">90</span>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/glass1.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h class="positions__items-inner-title title">Бокал</h>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">70</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
 							</div>
 						</div>
-						<h6 class="positions__items-inner-subtext subtext ">количество персон</h6>
-						<input class="positions__items-number number" type="number" min="0" value="1">
-						<div class="positions__items-btn">
-							<button class="positions__items-btn-link">Выбрать</button>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/glass2.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Бокал</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">130</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
 						</div>
-					</div>
-					<div class="positions__items-element item-empty">
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/plate1.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Тарелка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">150</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/plate2.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Тарелка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">160</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/plate3.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Тарелка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">110</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer plate.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title text">Тарелка сервировочная</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price value">260</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext person">количество персон</h6>
+							<input class="positions__items-number value" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer plate2.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title text">Тарелка сервировочная</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price value">260</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext person">количество персон</h6>
+							<input class="positions__items-number value" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer plate3.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title text">Тарелка сервировочная</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price value">260</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext person">количество персон</h6>
+							<input class="positions__items-number value" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer plate4.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title text">Тарелка сервировочная</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price value">130</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext person">количество персон</h6>
+							<input class="positions__items-number value" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer plate5.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title text">Тарелка сервировочная</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price value">130</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext person">количество персон</h6>
+							<input class="positions__items-number value" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/layer plate6.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title text">Тарелка сервировочная</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price value">210</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext person">количество персон</h6>
+							<input class="positions__items-number value" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/cutlery.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Приборы</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">235</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/napkin1.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Cалфетка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">80</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/napkin2.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Салфетка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">80</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/napkin3.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Салфетка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">80</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/napkin4.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Салфетка</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">80</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element">
+							<img class="positions__image" src="images/positions/fat spark.jpg" alt="image">
+							<div class="positions__items-inner-content">
+								<h3 class="positions__items-inner-title title">Свечи</h3>
+								<div class="positions__items-price-content">
+									<span class="positions__items-price price">90</span>
+								</div>
+							</div>
+							<h6 class="positions__items-inner-subtext subtext ">количество персон</h6>
+							<input class="positions__items-number number" type="number" min="0" value="1">
+							<div class="positions__items-btn">
+								<button class="positions__items-btn-link">Выбрать</button>
+							</div>
+						</div>
+						<div class="positions__items-element item-empty">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-
-
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__inner">
-				<div class="footer__inner-logo">
-					<a class="logo" href="#"><img src="images/main/logo.svg" alt="logo"></a>
-				</div>
-				<div class="footer__inner-menu">
-					<nav class="menu">
-						<ul class="menu__list">
-							<li class="menu__list-item">
-								<a class="menu__list-link" href="#">Каталог</a>
-							</li>
-							<li class="menu__list-item">
-								<a class="menu__list-link" href="#">Свадебная полиграфия</a>
-							</li>
-						</ul>
-				</div>
-				<div class="footer__inner-conacts">
-					<div class="footer__inner-phone">
-						<a class="footer__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
-						<a class="footer__inner-insta-link" href="https://www.instagram.com/munidecor/"><img
-								src="images/main/insta-logo.png" alt="instagram"></a>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__logo">
+						<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 					</div>
-					<div class="footer__inner-mail">
-						<a class="footer__inner-link" href="#">muni.decor@gmail.com</a>
+					<div class="footer__menu">
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__list-item">
+									<a class="menu__list-link foot" href="styles.html">Каталог</a>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link foot" href="polygraphy.html">Свадебная полиграфия</a>
+								</li>
+							</ul>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer__phone">
+							<a class="footer__phone-link" href="tel:89992077407">8 999 207 74 07 </a>
+							<a class="footer__insta-link" href="https://www.instagram.com/munidecor/">
+								<img src="images/main/insta16.png" alt="instagram"></a>
+						</div>
+						<div class="footer__mail">
+							<a class="footer__link" href="index.html">muni.decor@gmail.com</a>
+						</div>
 					</div>
 				</div>
+				<div class="footer__year">
+					<p class="footer__text">© 2020</p>
+				</div>
 			</div>
-			<div class="footer__inner-year">
-				<p class="footer__inner-text">© 2020</p>
-			</div>
-		</div>
-	</footer>
+		</footer>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/script.js"></script>
 	</div>
 </body>
 
