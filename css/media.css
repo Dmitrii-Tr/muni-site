@@ -358,13 +358,7 @@
 	.menu__list {
 		display: inline;
 	}
-	.menu__btn.btn--hiden {
-		display: none;
-	}
-	.menu__btn--close.menu__btn--active {
-		display: block;
-		position: absolute;
-	}
+	
 	.top {
 		background: url(../images/main/bg320px.jpg);
 		background-repeat: no-repeat;

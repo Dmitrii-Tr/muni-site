@@ -182,7 +182,6 @@ button:hover {
 }
 .contact__instagram {
 	margin-right: 100px;
-	
 }
 .contact__mail {
 	margin-right: 112px;
@@ -204,7 +203,7 @@ button:hover {
 	content: "";
 	background-image: url("../images/main/mail-logo.svg");
 	padding-left: 73px;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
 
 .footer {
@@ -298,11 +297,10 @@ button:hover {
 	border: 1px solid #6b6a6a;
 }
 
-.styles__link.inactive{
+.styles__link.inactive {
 	padding: 16px 214px 17px 249px;
 	background-color: #ececec;
 }
-
 
 .styles__items-catalog,
 .positions__items-catalog {
@@ -424,7 +422,6 @@ button:hover {
 .positions__items-price.value {
 	margin-top: -10px;
 	margin-left: 20px;
-
 }
 .positions__items-inner-content {
 	display: flex;
@@ -978,16 +975,18 @@ button:hover {
 .menu__list-logo {
 	display: none;
 }
-.menu__btn--close {
+.menu__btn.btn__hiden{
 	display: none;
+}
+
+
+.btn__hide.btn__visible {
 	width: 16px;
 	height: 16px;
 	border: 0;
 	outline: 0;
-
 	position: absolute;
 	right: 7px;
 	top: 7px;
-	background-color: white;
 	background-image: url(../images/main/close-menu.svg);
 }
