@@ -222,7 +222,8 @@
 		font-size: 14px;
 		padding: 20px 0 10px 0;
 	}
-	.positions__items-price::after {
+	.positions__items-price::after,
+	.wed__items-price::after {
 		content: "";
 		background-image: url(../images/positions/rub_tablet.svg);
 		background-repeat: no-repeat;
@@ -288,6 +289,76 @@
 	}
 	.positions__items-inner-subtext.person {
 		margin: 26px 32px -3px -75px;
+	}
+	.order__content-title,
+	.order__content-subtext,
+	.order__content-btn,
+	.order__content-price-btn {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.order__content-btn {
+		width: 152px;
+		height: 36px;
+	}
+	.order__content-price-title,
+	.wed__items-price {
+		font-size: 20px;
+	}
+	.order__content-price-title {
+		margin: 0 56px 36px 17px;
+	}
+	.order__content-price {
+		box-sizing: border-box;
+		width: 267px;
+		height: 193px;
+		border: solid #ffe4e4;
+		border-width: 28px 22px;
+	}
+	.order__content-price-btn {
+		width: 190px;
+		height: 36px;
+		margin: 0 16px 22px 17px;
+	}
+	.wed__items-price {
+		margin-left: 4px;
+	}
+	.order__input {
+		width: 56px;
+		height: 22px;
+		margin: 2px 0 20px 38px;
+	}
+	.order__content-btn {
+		width: 152px;
+		height: 36px;
+		padding: 8px 44px;
+	}
+	.order__content-subtext {
+		font-size: 8px;
+	}
+	.wed__items-price.order {
+		display: block;
+		margin: 3px 0 10px 51px;
+	}
+	.order__content-title {
+		margin-bottom: 10px;
+	}
+	.order__content-item {
+		margin-right: 20px;
+	}
+	.order__content-link {
+		padding: 7px 35px;
+		border: solid 1px #464343;
+		font-size: 14px;
+	}
+	.order__content-inner {
+		margin-bottom: 55px;
+	}
+	.about__title.title.order {
+		margin-bottom: 50px;
+	}
+	.order__content-esc {
+		margin-bottom: 50px;
 	}
 }
 
@@ -358,7 +429,7 @@
 	.menu__list {
 		display: inline;
 	}
-	
+
 	.top {
 		background: url(../images/main/bg320px.jpg);
 		background-repeat: no-repeat;
@@ -592,5 +663,71 @@
 	}
 	.positions__items-number.number {
 		margin: 10px 76px 37px 77px;
+	}
+	.order__content-inner {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.order__content-price {
+		box-sizing: border-box;
+		border: none;
+	}
+	.about__title.title.order {
+		margin-top: 38px;
+		margin-bottom: 21px;
   }
+  .order__content-title,
+  .order__content-btn,
+  .order__content-price-btn,
+  .order__content-esc,
+  .order__content-link,
+   .order__content-price-title {
+	font-size: 12px;
+}
+.order__content-subtext {
+	font-size: 10px;
+}
+.order__content-btn{
+	padding: 4px 40px;
+	width: 124px;
+    height: 27px;
+}
+.order__input {
+	width: 63px;
+	height: 25px;
+	margin: 6px 45px 12px 30px;
+
+}
+.wed__items-price.order {
+	display: block;
+	margin: 5px 0 21px 44px;
+}
+.order__content-price {
+	padding-top: 0;
+	margin-top: 30px;
+}
+.order__content-price-title {
+	margin: 0 13px 28px 17px;
+}
+
+.order__content-price-btn {
+	width: 291px;
+	height: 51px;
+	margin: 0 auto;
+}
+.order__content-link{
+	padding: 17px 81px;
+}
+.order__content-price{
+	height: 117px;
+}
+.order__content-subtext{
+	margin-left: 33px;
+}
+.order__content-esc {
+	margin-bottom: 35px;
+}
+.footer {
+height: 70px;
+}
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,22 +15,27 @@
 	<link rel="stylesheet" href="css/media.css">
 	<title>Order</title>
 </head>
+
 <body>
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__inner-logo">
-						<a class="logo" href="index.html"><img src="images/main/logo.svg" alt="logo"></a>
+						<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 					</div>
 					<div class="header__inner-menu">
 						<nav class="menu">
 							<ul class="menu__list">
+								<li class="menu__list-logo">
+									<a class="logo" href="index.html"><img class="menu__logo" src="images/main/mobile-logo.svg"
+											alt="logo"></a>
+								</li>
 								<li class="menu__list-item">
 									<a class="menu__list-link" href="styles.html">Каталог</a>
 								</li>
 								<li class="menu__list-item">
-									<a class="menu__list-link" href="#">Свадебная полиграфия</a>
+									<a class="menu__list-link" href="polygraphy.html">Свадебная полиграфия</a>
 								</li>
 							</ul>
 					</div>
@@ -37,33 +43,35 @@
 						<a class="header__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
 					</div>
 					<div class="header__inner-insta">
-						<a class="insta-link" href="https://www.instagram.com/munidecor/"><img
+						<a class="insta-link" href="https://www.instagram.com/munidecor/"><img class="header__insta"
 								src="images/main/insta-logo.png" alt="instagram"></a>
 					</div>
 					<div class="header__inner-btn">
-						<a class="header__inner-link" href="#">Мой заказ</a>
+						<a class="header__inner-link" href="order.html">Мой заказ</a>
+					</div>
+					<div class="btn__hide"></div>
+					<div class="menu__btn">
+						<span></span>
 					</div>
 				</div>
 			</div>
 		</header>
-		<section class="order__title">
-			<div class="order-inner">
-				<div class="wed__inner">
-					<div class="air__inner-content">
-						<div class="air__inner-line">
-							<img class="inner-image" src="images/line.svg" alt="line">
-						</div>
-						<div class="air__inner-title">Мой заказ</div>
-					</div>
-				</div>
-			</div>
+
+		<div class="styles">
+			<h2 class="about__title title order">Мой заказ</h2>
+		</div>
 		</section>
 		<section class="order__content">
 			<div class="container">
 				<div class="order__content-inner">
 					<div class="order__content-item">
 						<div class="order__content-image">
-							<img src="images/order-picture.png" alt="picture">
+							<picture>
+								<source media="(min-width: 1281px)" srcset="images/order/order-main.jpg">
+								<source media="(max-width: 1280px)" srcset="images/order/order-tablet.jpg">
+								<source media="(max-width: 768px)" srcset="images/order/order-mobile.jpg">
+								<img srcset="images/order/order-picture.png" alt="Фото заказа">
+							</picture>
 						</div>
 						<div class="order__content-text">
 							<h6 class="order__content-title">Нежность в деталях <br>(базовый комплект)</h6>
@@ -80,43 +88,45 @@
 					</div>
 				</div>
 				<div class="order__content-esc">
-					<a class="order__content-link" href="softness.html">Вернуться в каталог</a>
+					<a class="order__content-link" href="styles.html">Вернуться в каталог</a>
 				</div>
 			</div>
 		</section>
 		<footer class="footer">
 			<div class="container">
-				<div class="footer__inner">
-					<div class="footer__inner-logo">
-						<a class="logo" href="index.html"><img src="images/main/logo.svg" alt="logo"></a>
+				<div class="footer__wrapper">
+					<div class="footer__logo">
+						<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 					</div>
-					<div class="footer__inner-menu">
+					<div class="footer__menu">
 						<nav class="menu">
 							<ul class="menu__list">
 								<li class="menu__list-item">
-									<a class="menu__list-link" href="styles.html">Каталог</a>
+									<a class="menu__list-link foot" href="styles.html">Каталог</a>
 								</li>
 								<li class="menu__list-item">
-									<a class="menu__list-link" href="#">Свадебная полиграфия</a>
+									<a class="menu__list-link foot" href="polygraphy.html">Свадебная полиграфия</a>
 								</li>
 							</ul>
 					</div>
-					<div class="footer__inner-conacts">
-						<div class="footer__inner-phone">
-							<a class="footer__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
-							<a class="footer__inner-insta-link" href="https://www.instagram.com/munidecor/"><img
-									src="images/main/insta-logo.png" alt="instagram"></a>
+					<div class="footer__contacts">
+						<div class="footer__phone">
+							<a class="footer__phone-link" href="tel:89992077407">8 999 207 74 07 </a>
+							<a class="footer__insta-link" href="https://www.instagram.com/munidecor/">
+								<img src="images/main/insta16.png" alt="instagram"></a>
 						</div>
-						<div class="footer__inner-mail">
-							<a class="footer__inner-link" href="#">muni.decor@gmail.com</a>
+						<div class="footer__mail">
+							<a class="footer__link" href="index.html">muni.decor@gmail.com</a>
 						</div>
 					</div>
 				</div>
-				<div class="footer__inner-year">
-					<p class="footer__inner-text">© 2020</p>
+				<div class="footer__year">
+					<p class="footer__text">© 2020</p>
 				</div>
 			</div>
 		</footer>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/script.js"></script>
 	</div>
 </body>
-<violet
+</html>

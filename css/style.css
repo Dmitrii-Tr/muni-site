@@ -740,6 +740,26 @@ button:hover {
 	box-sizing: border-box;
 	padding: 74px 313px 71px 360px;
 }
+.order__title{
+	margin: 100px 0 129px 0;
+}
+.about__title::before, .contact__title::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 22%;
+	border-bottom: 5px solid #ececec;
+	margin-top: 50px;
+}
+.about__title.title.order{
+	margin-top: 100px;
+	margin-bottom: 129px;
+}
+
+
+
+
+
 .order__content-image {
 	margin-right: 20px;
 }
@@ -830,8 +850,6 @@ button:hover {
 	color: #464343;
 }
 .confirm__content-price {
-	/* width: 575px; */
-	/* height: auto; */
 	border: solid #ffe4e4;
 	border-width: 58px 50px;
 }

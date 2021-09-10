@@ -22,16 +22,20 @@
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__inner-logo">
-						<a class="logo" href="index.html"><img src="images/main/logo.svg" alt="logo"></a>
+						<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 					</div>
 					<div class="header__inner-menu">
 						<nav class="menu">
 							<ul class="menu__list">
-								<li class="menu__list-item">
-									<a class="menu__list-link" href="style.css">Каталог</a>
+								<li class="menu__list-logo">
+									<a class="logo" href="index.html"><img class="menu__logo" src="images/main/mobile-logo.svg"
+											alt="logo"></a>
 								</li>
 								<li class="menu__list-item">
-									<a class="menu__list-link" href="#">Свадебная полиграфия</a>
+									<a class="menu__list-link" href="styles.html">Каталог</a>
+								</li>
+								<li class="menu__list-item">
+									<a class="menu__list-link" href="polygraphy.html">Свадебная полиграфия</a>
 								</li>
 							</ul>
 					</div>
@@ -39,11 +43,15 @@
 						<a class="header__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
 					</div>
 					<div class="header__inner-insta">
-						<a class="insta-link" href="https://www.instagram.com/munidecor/"><img
+						<a class="insta-link" href="https://www.instagram.com/munidecor/"><img class="header__insta"
 								src="images/main/insta-logo.png" alt="instagram"></a>
 					</div>
 					<div class="header__inner-btn">
-						<a class="header__inner-link" href="#">Мой заказ</a>
+						<a class="header__inner-link" href="order.html">Мой заказ</a>
+					</div>
+					<div class="btn__hide"></div>
+					<div class="menu__btn">
+						<span></span>
 					</div>
 				</div>
 			</div>
@@ -127,38 +135,43 @@
 </section>
 
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__inner">
-				<div class="footer__inner-logo">
-					<a class="logo" href="#"><img src="images/main/logo.svg" alt="logo"></a>
-				</div>
-				<div class="footer__inner-menu">
-					<nav class="menu">
-						<ul class="menu__list">
-							<li class="menu__list-item">
-								<a class="menu__list-link" href="style.css">Каталог</a>
-							</li>
-							<li class="menu__list-item">
-								<a class="menu__list-link" href="#">Свадебная полиграфия</a>
-							</li>
-						</ul>
-				</div>
-				<div class="footer__inner-conacts">
-					<div class="footer__inner-phone">
-						<a class="footer__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
-						<a class="footer__inner-insta-link" href="https://www.instagram.com/munidecor/"><img
-								src="images/main/insta-logo.png" alt="instagram"></a>
-					</div>
-					<div class="footer__inner-mail">
-						<a class="footer__inner-link" href="#">muni.decor@gmail.com</a>
-					</div>
-				</div>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__wrapper">
+			<div class="footer__logo">
+				<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 			</div>
-			<div class="footer__inner-year">
-				<p class="footer__inner-text">© 2020</p>
+			<div class="footer__menu">
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__list-item">
+							<a class="menu__list-link foot" href="styles.html">Каталог</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link foot" href="polygraphy.html">Свадебная полиграфия</a>
+						</li>
+					</ul>
+			</div>
+			<div class="footer__contacts">
+				<div class="footer__phone">
+					<a class="footer__phone-link" href="tel:89992077407">8 999 207 74 07 </a>
+					<a class="footer__insta-link" href="https://www.instagram.com/munidecor/">
+						<img src="images/main/insta16.png" alt="instagram"></a>
+				</div>
+				<div class="footer__mail">
+					<a class="footer__link" href="index.html">muni.decor@gmail.com</a>
+				</div>
 			</div>
 		</div>
-	</footer>
+		<div class="footer__year">
+			<p class="footer__text">© 2020</p>
+		</div>
 	</div>
+</footer>
+
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/script.js"></script>
+</div>	
 </body>
+
+</html>
