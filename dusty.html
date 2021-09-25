@@ -25,7 +25,6 @@
 						<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 					</div>
 					<div class="header__inner-menu">
-
 						<nav class="menu">
 							<ul class="menu__list">
 								<li class="menu__list-logo">
@@ -50,13 +49,14 @@
 					<div class="header__inner-btn">
 						<a class="header__inner-link" href="order.html">Мой заказ</a>
 					</div>
+					<div class="btn__hide"></div>
 					<div class="menu__btn">
 						<span></span>
 					</div>
-					<button class="menu__btn--close"></button>
 				</div>
 			</div>
 		</header>
+
 		<section class="dusty__top">
 			<div class="container">
 				<div class="wed__nav">
@@ -64,31 +64,27 @@
 					<span class="wed__nav-slash">/</span>
 					<a href="styles.html" class="wed__nav-styles">Каталог</a>
 					<span class="wed__nav-slash">/</span>
-					<a href="#" class="wed__nav-styles">Припыленный монохром</a>
-				</div>
-			</div>
-			<div class="wed__inner">
-				<div class="wed__inner-content">
-					<div class="wed__inner-line">
-						<img src="images/wed/wed-line.svg" alt="line">
-					</div>
-					<div class="wed__inner-title">Припыленный монохром</div>
+					<span class="wed__nav-styles">Припыленный монохром</span>
 				</div>
 			</div>
 	</div>
+	<div class="styles">
+		<h2 class="about__title title dusty__title">Припыленный монохром</h2>
 	</div>
-	</section>
+
 	<section class="dusty__base">
 		<div class="container">
 			<div class="wed__base-inner">
 				<div class="wed__base-content">
-					<div class="dusty__base-content-items">
-						<h3 class="wed__base-title">Базовый комплект</h3>
-						<ul class="wed__base-description">
-							<li class="wed__base-item">Цветочная композиция в вазоне</li>
-							<li class="wed__base-item">Тонкие свечи и подсвечники 4 шт. </li>
-							<li class="wed__base-item">Серая скатерть для круглого стола</li>
-						</ul>
+					<div class="wed__base-content-items">
+						<div class="wed__base-wrapper">
+							<h3 class="wed__base-title">Базовый комплект</h3>
+							<ul class="wed__base-description">
+								<li class="wed__base-item">Цветочная композиция в вазоне</li>
+								<li class="wed__base-item">Тонкие свечи и подсвечники 4 шт. </li>
+								<li class="wed__base-item">Серая скатерть для круглого стола</li>
+							</ul>
+						</div>
 					</div>
 					<div class="wed__base-inner-content">
 						<h6 class="wed__base-inner-subtext">количество столов</h6>
@@ -105,19 +101,22 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="dusty__service">
 		<div class="container">
 			<div class="wed__service-inner">
 				<div class="wed__service-content">
 					<div class="wed__service-content-items">
-						<h3 class="wed__service-title">Сервировка</h3>
-						<h3 class="wed__service-subtitle">Полный набор на одну персону</h3>
-						<ul class="dusty__service-description">
-							<li class="wed__service-item">Бокал</li>
-							<li class="wed__service-item">Тарелка</li>
-							<li class="wed__service-item">Тарелка сервировочная</li>
-							<li class="wed__service-item">Салфетка</li>
-						</ul>
+						<div class="wed__service-wrapper">
+							<h3 class="wed__service-title">Сервировка</h3>
+							<h3 class="wed__service-subtitle">Полный набор на одну персону</h3>
+							<ul class="wed__service-description">
+								<li class="wed__service-item">Бокал</li>
+								<li class="wed__service-item">Тарелка</li>
+								<li class="wed__service-item">Тарелка сервировочная</li>
+								<li class="wed__service-item">Салфетка</li>
+							</ul>
+						</div>
 					</div>
 					<div class="wed__service-inner-content">
 						<h6 class="wed__service-inner-subtext">количество столов</h6>
@@ -134,11 +133,12 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="wed__service-goods">
 		<div class="container">
 			<div class="wed__item-elements">
 				<div class="wed__item-element">
-					<img src="images/violet/glass.jpg" alt="image">
+					<img class="wed__items-img" src="images/violet/glass.jpg" alt="image">
 					<div class="wed__items-inner-content">
 						<h3 class="wed__items-inner-title">Бокал</h3>
 						<div class="wed__items-price-content">
@@ -152,7 +152,7 @@
 					</div>
 				</div>
 				<div class="wed__items-element">
-					<img src="images/dusty/plate.webp" alt="image">
+					<img class="wed__items-img" src="images/dusty/plate.webp" alt="image">
 					<div class="wed__items-inner-content">
 						<h3 class="wed__items-inner-title">Тарелка</h3>
 						<div class="wed__items-price-content">
@@ -166,7 +166,7 @@
 					</div>
 				</div>
 				<div class="wed__items-element">
-					<img src="images/dusty/service-plate.webp" alt="image">
+					<img class="wed__items-img" src="images/dusty/service-plate.webp" alt="image">
 					<div class="wed__items-inner-content">
 						<h3 class="wed__items-inner-title">Тарелка сервировочная</h3>
 						<div class="wed__items-price-content">
@@ -179,8 +179,8 @@
 						<button class="wed__items-btn-link">Выбрать</button>
 					</div>
 				</div>
-				<div class="dusty__items-element">
-					<img src="images/dusty/napkin.webp" alt="image">
+				<div class="wed__items-element element__item">
+					<img class="wed__items-img" src="images/dusty/napkin.webp" alt="image">
 					<div class="wed__items-inner-content">
 						<h3 class="wed__items-inner-title">Салфетка</h3>
 						<div class="wed__items-price-content">
@@ -198,37 +198,40 @@
 	</section>
 	<footer class="footer">
 		<div class="container">
-			<div class="footer__inner">
-				<div class="footer__inner-logo">
-					<a class="logo" href="#"><img src="images/main/logo.svg" alt="logo"></a>
+			<div class="footer__wrapper">
+				<div class="footer__logo">
+					<a class="logo" href="index.html"><img class="header__logo" src="images/main/logo.svg" alt="logo"></a>
 				</div>
-				<div class="footer__inner-menu">
+				<div class="footer__menu">
 					<nav class="menu">
 						<ul class="menu__list">
 							<li class="menu__list-item">
-								<a class="menu__list-link" href="#">Каталог</a>
+								<a class="menu__list-link foot" href="styles.html">Каталог</a>
 							</li>
 							<li class="menu__list-item">
-								<a class="menu__list-link" href="#">Свадебная полиграфия</a>
+								<a class="menu__list-link foot" href="polygraphy.html">Свадебная полиграфия</a>
 							</li>
 						</ul>
 				</div>
-				<div class="footer__inner-conacts">
-					<div class="footer__inner-phone">
-						<a class="footer__inner-phone-link" href="tel:89992077407">8 999 207 74 07 </a>
-						<a class="footer__inner-insta-link" href="https://www.instagram.com"><img
-								src="images/main/insta-logo.png" alt="instagram"></a>
+				<div class="footer__contacts">
+					<div class="footer__phone">
+						<a class="footer__phone-link" href="tel:89992077407">8 999 207 74 07 </a>
+						<a class="footer__insta-link" href="https://www.instagram.com/munidecor/">
+							<img src="images/main/insta16.png" alt="instagram"></a>
 					</div>
-					<div class="footer__inner-mail">
-						<a class="footer__inner-link" href="#">muni.decor@gmail.com</a>
+					<div class="footer__mail">
+						<a class="footer__link" href="index.html">muni.decor@gmail.com</a>
 					</div>
 				</div>
 			</div>
-			<div class="footer__inner-year">
-				<p class="footer__inner-text">© 2020</p>
+			<div class="footer__year">
+				<p class="footer__text">© 2020</p>
 			</div>
 		</div>
 	</footer>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
 	</div>
 </body>
-<violet
+
+</html
