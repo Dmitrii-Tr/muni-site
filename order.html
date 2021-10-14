@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +14,6 @@
 	<link rel="stylesheet" href="css/media.css">
 	<title>Order</title>
 </head>
-
 <body>
 	<div class="wrapper">
 		<header class="header">
@@ -56,37 +54,31 @@
 				</div>
 			</div>
 		</header>
-
 		<div class="styles">
 			<h2 class="about__title title order">Мой заказ</h2>
 		</div>
 		</section>
 		<section class="order__content">
 			<div class="container">
-				<div class="order__content-inner">
-					<div class="order__content-item">
-						<div class="order__content-image">
-							<picture>
-								<source media="(min-width: 1281px)" srcset="images/order/order-main.jpg">
-								<source media="(max-width: 1280px)" srcset="images/order/order-tablet.jpg">
-								<source media="(max-width: 768px)" srcset="images/order/order-mobile.jpg">
-								<img srcset="images/order/order-picture.png" alt="Фото заказа">
-							</picture>
+					<div class="order__content-inner">
+						<div class="order__content-item">
+							<div class="order__content-image">
+								<img class="order__content-img" src="images/order/order.png" alt="order-image">
+							</div>
+							<div class="order__content-text">
+								<h6 class="order__content-title">Нежность в деталях <br>(базовый комплект)</h6>
+								<h6 class="order__content-subtext">Количество</h6>
+								<input class="order__input" type="number" min="1" value="0">
+								<span class="wed__items-price order">150</span>
+								<button class="order__content-btn">Удалить</button>
+							</div>
 						</div>
-						<div class="order__content-text">
-							<h6 class="order__content-title">Нежность в деталях <br>(базовый комплект)</h6>
-							<h6 class="order__content-subtext">Количество</h6>
-							<input class="order__input" type="number" min="1" value="0">
-							<span class="wed__items-price order">150</span>
-							<button class="order__content-btn">Удалить</button>
+						<div class="order__content-price">
+							<h3 class="order__content-price-title">Итого :</h3>
+							<span class="wed__items-price order__content-price-total">5800</span>
+							<a class="order__content-price-btn" href="order-confirm.html">Оформить заказ</a>
 						</div>
 					</div>
-					<div class="order__content-price">
-						<h3 class="order__content-price-title">Итого :</h3>
-						<span class="wed__items-price order__content-price-total">5800</span>
-						<button class="order__content-price-btn">Оформить заказ</button>
-					</div>
-				</div>
 				<div class="order__content-esc">
 					<a class="order__content-link" href="styles.html">Вернуться в каталог</a>
 				</div>
