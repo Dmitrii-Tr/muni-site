@@ -10,7 +10,7 @@
 		margin: 0 auto;
 		text-align: center;
 		padding-bottom: 50px;
-	padding-left: 540px;
+		padding-left: 540px;
 	}
 	.about__title.title {
 		text-align: center;
@@ -47,7 +47,7 @@
 		padding-bottom: 0;
 	}
 	.top {
-		background: url(../images/main/bg768px.jpg);
+		background: url("../images/main/bg768px.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		height: 555px;
@@ -225,7 +225,7 @@
 	.positions__items-price::after,
 	.wed__items-price::after {
 		content: "";
-		background-image: url(../images/positions/rub_tablet.svg);
+		background-image: url("../images/positions/rub_tablet.svg");
 		background-repeat: no-repeat;
 		position: absolute;
 		width: 14px;
@@ -621,7 +621,7 @@
 	.confirm__content-subtotal::after,
 	.confirm__content-price-total::after {
 		content: "";
-		background-image: url(../images/ruble-min.svg);
+		background-image: url("../images/ruble-min.svg");
 		background-repeat: no-repeat;
 		position: absolute;
 		width: 10px;
@@ -729,7 +729,7 @@ margin-bottom: 30px;
 		display: inline;
 	}
 	.top {
-		background: url(../images/main/bg320px.jpg);
+		background: url("../images/main/bg320px.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		margin-bottom: 50px;
@@ -928,7 +928,7 @@ margin-bottom: 30px;
 	}
 	.positions__items-price::after {
 		content: "";
-		background-image: url(../images/positions/ruble.svg);
+		background-image: url("../images/positions/ruble.svg");
 		background-repeat: no-repeat;
 		position: absolute;
 		width: 14px;
@@ -1072,7 +1072,7 @@ margin-bottom: 30px;
 		overflow: hidden;
 	}
 	.polygraphy__image {
-		background-image: url(/images/polygraphy/background320.jpg);
+		background-image: url("/images/polygraphy/background320.jpg");
 		width: 100%;
 		height: 289px;
 		background-repeat: no-repeat;
@@ -1216,7 +1216,7 @@ margin-bottom: 30px;
 	.positions__items-price::after,
 	.wed__items-price::after {
 		content: "";
-		background-image: url(../images/positions/ruble.svg);
+		background-image: url("../images/positions/ruble.svg");
 		background-repeat: no-repeat;
 		position: absolute;
 		width: 14px;
@@ -1228,7 +1228,7 @@ margin-bottom: 30px;
 	.wed__items-price.order__content-price-total::after,
 	.wed__items-price.order::after {
 		content: "";
-		background-image: url(../images/positions/rub_tablet.svg);
+		background-image: url("../images/positions/rub_tablet.svg");
 		background-repeat: no-repeat;
 		position: absolute;
 		width: 14px;

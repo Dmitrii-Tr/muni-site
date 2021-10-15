@@ -637,7 +637,7 @@ button:hover {
 	padding-bottom: 30px;
 }
 .polygraphy__image {
-	background-image: url(/images/polygraphy/background1280.jpg);
+	background-image: url("../images/polygraphy/background.jpg");
 	width: 61%;
 	height: 669px;
 	background-repeat: no-repeat;
