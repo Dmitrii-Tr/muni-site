@@ -1072,7 +1072,7 @@ margin-bottom: 30px;
 		overflow: hidden;
 	}
 	.polygraphy__image {
-		background-image: url("/images/polygraphy/background320.jpg");
+		background-image: url("../images/polygraphy/background320.jpg");
 		width: 100%;
 		height: 289px;
 		background-repeat: no-repeat;
